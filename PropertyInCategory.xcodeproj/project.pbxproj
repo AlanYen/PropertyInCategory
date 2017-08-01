@@ -15,6 +15,7 @@
 		2D46A2B21F305D960071ADF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D46A2B01F305D960071ADF0 /* LaunchScreen.storyboard */; };
 		2D46A2BD1F305D960071ADF0 /* PropertyInCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D46A2BC1F305D960071ADF0 /* PropertyInCategoryTests.m */; };
 		2D46A2C81F305D960071ADF0 /* PropertyInCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D46A2C71F305D960071ADF0 /* PropertyInCategoryUITests.m */; };
+		2D46A2D71F305DBD0071ADF0 /* ViewController+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D46A2D61F305DBD0071ADF0 /* ViewController+Name.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2D46A2C31F305D960071ADF0 /* PropertyInCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyInCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D46A2C71F305D960071ADF0 /* PropertyInCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyInCategoryUITests.m; sourceTree = "<group>"; };
 		2D46A2C91F305D960071ADF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D46A2D51F305DBD0071ADF0 /* ViewController+Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Name.h"; sourceTree = "<group>"; };
+		2D46A2D61F305DBD0071ADF0 /* ViewController+Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Name.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		2D46A2A11F305D960071ADF0 /* PropertyInCategory */ = {
 			isa = PBXGroup;
 			children = (
+				2D46A2D51F305DBD0071ADF0 /* ViewController+Name.h */,
+				2D46A2D61F305DBD0071ADF0 /* ViewController+Name.m */,
 				2D46A2A51F305D960071ADF0 /* AppDelegate.h */,
 				2D46A2A61F305D960071ADF0 /* AppDelegate.m */,
 				2D46A2A81F305D960071ADF0 /* ViewController.h */,
@@ -279,6 +284,7 @@
 				2D46A2AA1F305D960071ADF0 /* ViewController.m in Sources */,
 				2D46A2A71F305D960071ADF0 /* AppDelegate.m in Sources */,
 				2D46A2A41F305D960071ADF0 /* main.m in Sources */,
+				2D46A2D71F305DBD0071ADF0 /* ViewController+Name.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
